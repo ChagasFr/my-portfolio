@@ -3,6 +3,10 @@ import Image from "next/image";
 export default function Header() {
     return (
         <div className="header">
+            <div>
+                <h1>Hi, I`m Felipe</h1>
+                <h2>Software Engineer</h2>
+            </div>
             <Image
                 src="/vercel.svg"
                 alt="Vercel Logo"
@@ -10,10 +14,6 @@ export default function Header() {
                 height={24}
                 priority
             />
-            <div>
-                <h1>Hi, I`m Felipe</h1>
-                <h2>Software Engineer</h2>
-            </div>
         </div>
     )
 };
