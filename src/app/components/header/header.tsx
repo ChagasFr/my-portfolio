@@ -10,10 +10,10 @@ export default function Header() {
                 <h2>Software Engineer</h2>
             </div>
             <Image
-                src="/vercel.svg"
+                src="/public/me.jpg"
                 alt="Vercel Logo"
-                width={100}
-                height={24}
+                width={325}
+                height={277}
                 priority
             />
         </div>
