@@ -2,6 +2,8 @@ import { Experience } from "./components/experience/experience";
 import Header from "./components/header/header";
 import { Info } from "./components/information/information";
 
+import Image from "next/image";
+
 import "./styles/home.scss"
 
 export default function Home() {
@@ -13,7 +15,16 @@ export default function Home() {
       <div className="buttons">
         <div className="social"></div>
       </div>
-      <button>contact Me!</button>
+      <button className="bnt-primary">
+        contact Me!
+        <Image
+          src="/public/me.jpg"
+          alt="Vercel Logo"
+          width={325}
+          height={277}
+          priority
+        />
+      </button>
     </main>
   );
 }
