@@ -15,10 +15,10 @@ export default function Home() {
       <div className="buttons">
         <SocialBtns />
       </div>
-      <button className="bnt-primary">
+      <a className="bnt-primary" href="mailto:felipechagasdosreis@gmail.com">
         contact Me!
         <EmailIcon />
-      </button>
+      </a>
     </main>
   );
 }
