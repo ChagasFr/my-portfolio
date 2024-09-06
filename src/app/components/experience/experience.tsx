@@ -15,10 +15,15 @@ export function Experience() {
                     <Image
                         src="/public/react.png"
                         alt="React Logo"
-                        width={50}
-                        height={50}
+                        width={40}
+                        height={40}
                         priority
                     />
+                    <div className="experience-unit">
+                        <div className="experience-measure">
+
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <Image
@@ -28,33 +33,53 @@ export function Experience() {
                         height={50}
                         priority
                     />
+                    <div className="experience-unit">
+                        <div className="experience-measure">
+
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <Image
                         src="/public/ts.png"
                         alt="Typescrip Logo"
-                        width={50}
-                        height={50}
+                        width={40}
+                        height={40}
                         priority
                     />
+                    <div className="experience-unit">
+                        <div className="experience-measure">
+
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <Image
                         src="/public/js.png"
                         alt="Javascript Logo"
-                        width={50}
-                        height={50}
+                        width={40}
+                        height={40}
                         priority
                     />
+                    <div className="experience-unit">
+                        <div className="experience-measure">
+
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <Image
                         src="/public/py.png"
                         alt="python Logo"
-                        width={50}
-                        height={50}
+                        width={40}
+                        height={40}
                         priority
                     />
+                    <div className="experience-unit">
+                        <div className="experience-measure">
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

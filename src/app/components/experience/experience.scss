@@ -16,6 +16,10 @@
         text-align: center;
     }
 
+    img {
+        filter: grayscale(100%)
+    }
+
     .experience-time {
         display: flex;
         align-items: center;
