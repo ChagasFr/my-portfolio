@@ -16,6 +16,35 @@
         text-align: center;
     }
 
+    
+    .experience-language{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+
+        img {
+            filter: grayscale(100%)
+        }
+        
+        .experience-unit {
+            width: 300px;
+            height: 35px;
+            border-radius: 24px;
+            border: 1px solid var(--text-secondary);
+
+            .experience-measure {
+                height: 35px;
+                border-radius: 24px;
+
+                &-1 {
+                    width: 33%;
+                }
+            }
+        }
+        
+    }
+
     .experience-time {
         display: flex;
         align-items: center;
