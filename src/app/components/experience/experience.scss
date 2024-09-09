@@ -36,9 +36,22 @@
             .experience-measure {
                 height: 35px;
                 border-radius: 24px;
+                background: linear-gradient(90deg, #4147f0f3 2.62%, #13017ad0 93.38%);
 
                 &-1 {
-                    width: 33%;
+                    width: 30%;
+                }
+                &-2 {
+                    width: 30%;
+                }
+                &-3 {
+                    width: 40%;
+                }
+                &-4 {
+                    width: 40%;
+                }
+                &-5 {
+                    width: 15%;
                 }
             }
         }
