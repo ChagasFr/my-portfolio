@@ -32,12 +32,26 @@
             height: 35px;
             border-radius: 24px;
             border: 1px solid var(--text-secondary);
+            
+            display: flex;
+            justify-content: flex-start;
+            align-content: flex-end;
 
             .experience-measure {
+                display: flex;
+                justify-content: center;
+                align-content: flex-end;
+
                 border-radius: 24px;
                 height: 35px;
-                border: 1px solid var(--text-secondary);
+                border: 2px solid linear-gradient(90deg, #4147f0f3 2.62%, #13017ad0 93.38%);
                 background: linear-gradient(90deg, #4147f0f3 2.62%, #13017ad0 93.38%);
+
+                color: var(--text-primary);
+                font-weight: 300;
+                text-align: center;
+                font-size: 12px;
+                
 
                 &.measure1 {
                     width: 30%;
