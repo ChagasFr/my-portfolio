@@ -34,23 +34,24 @@
             border: 1px solid var(--text-secondary);
 
             .experience-measure {
-                height: 35px;
                 border-radius: 24px;
+                height: 35px;
+                border: 1px solid var(--text-secondary);
                 background: linear-gradient(90deg, #4147f0f3 2.62%, #13017ad0 93.38%);
 
-                &-1 {
+                &.measure1 {
                     width: 30%;
                 }
-                &-2 {
+                &.measure2 {
                     width: 30%;
                 }
-                &-3 {
+                &.measure3 {
                     width: 40%;
                 }
-                &-4 {
+                &.measure4 {
                     width: 40%;
                 }
-                &-5 {
+                &.measure5 {
                     width: 15%;
                 }
             }
