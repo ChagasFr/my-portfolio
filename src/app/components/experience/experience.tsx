@@ -20,7 +20,7 @@ export function Experience() {
                         priority
                     />
                     <div className="experience-unit">
-                        <div className="experience-measure-1">
+                        <div className="experience-measure measure-1">
 
                         </div>
                     </div>
@@ -34,8 +34,8 @@ export function Experience() {
                         priority
                     />
                     <div className="experience-unit">
-                        <div className="experience-measure-1">
-
+                        <div className="experience-measure measure-2">
+                            <span>2 years</span>
                         </div>
                     </div>
                 </div>
@@ -48,8 +48,8 @@ export function Experience() {
                         priority
                     />
                     <div className="experience-unit">
-                        <div className="experience-measure-2">
-
+                        <div className="experience-measure measure-2">
+                            <span>2 years</span>
                         </div>
                     </div>
                 </div>
@@ -62,8 +62,8 @@ export function Experience() {
                         priority
                     />
                     <div className="experience-unit">
-                        <div className="experience-measure-2">
-
+                        <div className="experience-measure measure-2">
+                            <span>2 years</span>
                         </div>
                     </div>
                 </div>
@@ -76,8 +76,8 @@ export function Experience() {
                         priority
                     />
                     <div className="experience-unit">
-                        <div className="experience-measure-1">
-
+                        <div className="experience-measure measure-1">
+                            <span>1 years</span>
                         </div>
                     </div>
                 </div>
